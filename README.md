@@ -1,6 +1,6 @@
 What is this?
 -------------
-This repo contains different benchmarks for different languages
+This repo contains different benchmarks for different languages.
 
 List of contents
 ----------------
@@ -9,3 +9,4 @@ List of contents
 TODO
 ----
 - Add description method/decorator to Benchmark base class.
+- Add config feature.
