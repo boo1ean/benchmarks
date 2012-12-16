@@ -14,3 +14,4 @@ TODO
 ----
 - Add description method/decorator to Benchmark base class.
 - Add config feature.
+- Add results table.
