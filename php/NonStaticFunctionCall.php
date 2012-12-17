@@ -9,6 +9,8 @@ class NonStaticFixture
 
 class NonStaticFunctionCall extends Benchmark
 {
+	protected $description = '10000000 non-static function call';
+
     const TIMES = 10000000;
     public function run() {
         $fixture = new NonStaticFixture;

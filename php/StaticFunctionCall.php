@@ -10,6 +10,8 @@ class Fixture
 class StaticFunctionCall extends Benchmark
 {
     const TIMES = 10000000;
+	protected $description = '10000000 static function call';
+
     public function run() {
         for ($i = 0; $i < self::TIMES; $i++) {
             Fixture::feature();

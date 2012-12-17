@@ -7,6 +7,7 @@ $tests = array(
     'StaticFunctionCall',
     'NonStaticFunctionCall',
     'SingleQuotesString',
+    'DoubleQuotesString'
 );
 
 foreach ($tests as $test) {
@@ -14,4 +15,5 @@ foreach ($tests as $test) {
     $bench = new $test();
     $bench->execute();
     $bench->describe();
+	echo "\n";
 }
